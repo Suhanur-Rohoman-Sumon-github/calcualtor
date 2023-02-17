@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pin macher</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-900">
+    <main>
+        <section class="mt-5">
+            <div class="grid  grid-cols-2 gap-4 w-9/12 mx-auto   ">
+                <div class="bg-black  text-center ">
+                    <input id="g-inputfield" class="w-9/12 block mt-5  mx-auto p-3" type="text">
+                    <button id="genaret-pin" class="text-white text-center my-40 px-10 py-10 text-3xl bg-blue-400 rounded-full">genaret pin</button>
+                </div>
+                <div>
+                    <div class="bg-black text-center pt-5 ">
+                        <input id="calculator-inputfield" class="w-9/12 block p-3   mx-auto" type="text">
+                        <div id="calculator"  class=" ">
+                            <div class="mt-5">
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl ">1</button>
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl ">2</button>
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl">3</button>
+                            </div>
+                            <div class=" mt-2">
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl">4</button>
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl">5</button>
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl">6</button>
+                            </div>
+                            <div class="mt-2 mb-2">
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl">7</button>
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl">8</button>
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl">9</button>
+                            </div>
+                            <div class="mt-2 mb-2">
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl"><</button>
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl">0</button>
+                                <button class="text-white text-center bg-blue-400 rounded-lg  px-8 py-4 mr-2 text-2xl">c</button>
+                            </div>
+                            <button id="submit" class="text-white px-32 bg-blue-400 mt-10 py-2 text-3xl">submit</button>
+                            <h1 class="text-red-600 mt-3 text-xl">3 try left</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="hidden text-center font-bold text-xl text-white" id="pin-sucsses">pin mached</p>
+            <p class="hidden text-center font-bold text-xl text-white" id="pin-fail">pin not mached</p>
+        </section>
+    </main>
+    <script src="assests/js/styel.js"></script>
+</body>
+
+</html>
